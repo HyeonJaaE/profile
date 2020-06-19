@@ -53,20 +53,14 @@ const Nav = () => {
                 </div>
                 <ul>
                     <li>
-                        <Link className="nav-anchor" to="/search">
+                        <a className="nav-anchor" href="#portfolio">
                             PORTFOLIO
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link className="nav-anchor" to="/best">
+                        <a className="nav-anchor" href="https://www.wanted.co.kr/cv/605944">
                             RESUME
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link className="nav-anchor" to="/search">
-                            CONTACT
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -79,20 +73,14 @@ const Nav = () => {
 
                 <ul className="nav-ul">
                     <li className="nav-li">
-                        <Link className="nav-anchor" to="/search">
+                        <a className="nav-anchor" href="#portfolio">
                             PORTFOLIO
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-li">
-                        <Link className="nav-anchor" to="/best">
+                        <a className="nav-anchor" href="https://www.wanted.co.kr/cv/605944">
                             RESUME
-                        </Link>
-                    </li>
-
-                    <li className="nav-li">
-                        <Link className="nav-anchor" to="/search">
-                            CONTACT
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </nav>

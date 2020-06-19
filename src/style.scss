@@ -1,6 +1,6 @@
 $breakpoint-tablet: 768px;
 $aColor: #FFFFFF;
-
+$footerTextColor: white;
 
 .portfolio-img::-webkit-scrollbar {
     height: 0.3125rem;
@@ -104,13 +104,13 @@ ul {
     .side-nav-header{
         width: 100%;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         border-bottom: solid 2px #444444;
         height: 3.5rem;
         margin-bottom: 5px;
     }
     button{
-        margin: auto 25px auto;
+        margin: auto 15px auto;
         background-color: transparent;
         border: none;
         color: white;
@@ -168,8 +168,8 @@ ul {
         }
     }
     img{
-        height: 250px;
-        width: 400px;
+        height: 400px;
+        width: 500px;
     }
 }
 
@@ -177,5 +177,48 @@ ul {
 @media only screen and (max-width: 768px){
     .portfolio {
         padding: 0px;
+    }
+}
+
+
+.footer{
+    display:flex;
+    justify-content: center;
+    height: 10rem;
+    background-color: rgb(32, 32, 32);
+    color: $footerTextColor;
+}
+
+.footer-div{
+    width: 33%;
+    margin-top: 25px;
+    hr{
+        background-color: $footerTextColor;
+    }
+    a, a:hover, a:visited, a:link{
+        color: $footerTextColor;
+        text-decoration: none;
+    }
+}
+
+.box{
+    -moz-box-shadow:    inset 0 0 1px #000000;
+    -webkit-box-shadow: inset 0 0 1px #000000;
+    box-shadow:         inset 0 0 1px #000000;
+     
+    height: 12vw;
+}
+
+.box-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    &:hover{
+        background-color: gray;
+        color:rgb(224, 224, 224);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     }
 }

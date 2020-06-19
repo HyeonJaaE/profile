@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div
-            className="d-flex justify-content-center text-white text-center"
-            style={{ height: "10rem", backgroundColor: "#31353D" }}
-        >
-            <div className="col-3 pt-4">
-                <h2>THIS IS FOOTER</h2>
-                <h4>Thank you</h4>
+        <div className="footer">
+            <div className="footer-div">
+                <p>Email - presentlee914@gmail.com</p>
+                <p>
+                    Github -{" "}
+                    <a href="https://github.com/HyeonJaaE/">https://github.com/HyeonJaaE/</a>
+                </p>
             </div>
         </div>
     );
