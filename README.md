@@ -1,1 +1,1 @@
-https://github.com/HyeonJaaE/profile
+https://hyeonjaae.github.io/profile/
