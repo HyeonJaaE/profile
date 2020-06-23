@@ -34,6 +34,7 @@ const Home = () => {
                         </div>
                         <div>
                             <img src="./cat3.jpg"></img>
+                            <p>나만의 라이브러리(개발중)</p>
                         </div>
                     </div>
                 </div>
@@ -41,14 +42,22 @@ const Home = () => {
 
             <div className="jumbotron d-flex" id="p1" style={{ height: "20rem" }}>
                 <div className="col-3 pt-4">
-                    <p>포트폴리오 1</p>
+                    <p>React 기반 웹 애플리케이션</p>
                 </div>
                 <div className="col-6 pt-4">
+                    <p>Stack</p>
+                    <hr className="bg-secondary" />
+                    HTML · CSS · JS · React · Redux · Boostrap · Firebase
+                    <br />
+                    Firebase API - 사용자 인증(Redux), 파일 업로드, 글 작성, 호스팅
+                    <br />
+                </div>
+                <div className="col-3 pt-4">
                     <p>Link</p>
                     <hr className="bg-secondary" />
-                    홈페이지 -<a href="https://vsclicker.web.app/">https://vsclicker.web.app/</a>
+                    <a href="https://vsclicker.web.app/">https://vsclicker.web.app/</a>
                     <br />
-                    GitHub -
+
                     <a href="https://github.com/HyeonJaaE/vsClicker">
                         https://github.com/HyeonJaaE/vsClicker
                     </a>
