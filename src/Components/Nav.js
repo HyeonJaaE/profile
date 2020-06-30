@@ -58,7 +58,7 @@ const Nav = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="nav-anchor" href="https://www.wanted.co.kr/cv/605944">
+                        <a className="nav-anchor" href="/profile/resume.pdf">
                             RESUME
                         </a>
                     </li>
@@ -78,7 +78,7 @@ const Nav = () => {
                         </a>
                     </li>
                     <li className="nav-li">
-                        <a className="nav-anchor" href="https://www.wanted.co.kr/cv/605944">
+                        <a className="nav-anchor" href="/profile/resume.pdf">
                             RESUME
                         </a>
                     </li>

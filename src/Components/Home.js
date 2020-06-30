@@ -17,7 +17,7 @@ const Home = () => {
                     <br />
                     <br /> HTML, CSS, JavaScript, React, Git
                 </p>
-                <a href="/resume_이현재.pdf">RESUME</a>
+                <a href="/profile/resume.pdf">RESUME</a>
             </div>
 
             <div className="container" id="portfolio">
